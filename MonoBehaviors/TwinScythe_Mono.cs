@@ -31,14 +31,14 @@ namespace RSCards.MonoBehaviors
             {
                 var radius = transform.localScale.y;
                 var hits = Physics2D.OverlapCircleAll(scythe.transform.position, radius);
+                var Keys = recent.Keys.ToArray();
+                foreach (int Key in Keys)
+                {
+                    recent[Key] -= TimeHandler.deltaTime;
+                }
 
                 foreach (var hit in hits)
                 {
-                    var Keys = recent.Keys.ToArray();
-                    foreach (int Key in Keys)
-                    {
-                        recent[Key] -= TimeHandler.deltaTime;
-                    }
                     var bullet = hit.gameObject.GetComponentInParent<ProjectileHit>();
                     var damageable = hit.gameObject.GetComponent<Damagable>();
                     var healthHandler = hit.gameObject.GetComponent<HealthHandler>();

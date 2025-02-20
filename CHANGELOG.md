@@ -1,4 +1,8 @@
-#### 1.3.4
+#### 1.3.6
+- Fixed an issue with Twin Scythe
+- Fixed an issue with Hitscan
+
+#### 1.3.5
 - Moved to Unity
 - Buffed Changeup
 

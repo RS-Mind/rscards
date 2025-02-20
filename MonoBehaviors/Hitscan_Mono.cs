@@ -28,7 +28,7 @@ namespace RSCards.MonoBehaviors
 
 		IEnumerator RoundStart(IGameModeHandler gm)
 		{
-			player.data.weaponHandler.gun.reflects = int.MinValue + 100;
+			player.data.weaponHandler.gun.reflects = -100;
 			yield break;
 		}
 
