@@ -51,7 +51,6 @@ GameObject:
   - component: {fileID: 224092629148713618}
   - component: {fileID: 222192546407124749}
   - component: {fileID: 114431880908897676}
-  - component: {fileID: 114493741250870416}
   m_Layer: 10
   m_Name: FG_Dots
   m_TagString: Untagged
@@ -113,20 +112,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114493741250870416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197130811786948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15
 --- !u!1 &1301914331413788
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +123,6 @@ GameObject:
   - component: {fileID: 224906427064027652}
   - component: {fileID: 222230412072742202}
   - component: {fileID: 114469428796959935}
-  - component: {fileID: 114389162786436042}
   - component: {fileID: 95266233605674277}
   m_Layer: 10
   m_Name: BG_Leafs1
@@ -201,20 +185,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114389162786436042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301914331413788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 3
-  speed: 10
 --- !u!95 &95266233605674277
 Animator:
   serializedVersion: 3
@@ -245,7 +215,6 @@ GameObject:
   - component: {fileID: 224235476132597743}
   - component: {fileID: 222813129865262121}
   - component: {fileID: 114134160748488775}
-  - component: {fileID: 114279268343673280}
   m_Layer: 10
   m_Name: BG (1)
   m_TagString: Untagged
@@ -307,20 +276,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114279268343673280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360205295941948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15
 --- !u!1 &1408771770629256
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,7 +359,6 @@ GameObject:
   - component: {fileID: 224262816001540500}
   - component: {fileID: 222530630317320342}
   - component: {fileID: 114476045605701858}
-  - component: {fileID: 114065929646306718}
   - component: {fileID: 225700315571456850}
   - component: {fileID: 8118050720225295011}
   m_Layer: 10
@@ -469,20 +423,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114065929646306718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414573124911467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15
 --- !u!225 &225700315571456850
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -525,7 +465,6 @@ GameObject:
   - component: {fileID: 224732070670176974}
   - component: {fileID: 222027706120995522}
   - component: {fileID: 114772448730286334}
-  - component: {fileID: 114752119958302376}
   - component: {fileID: 95562780763123846}
   m_Layer: 10
   m_Name: BG_Leafs2
@@ -588,20 +527,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114752119958302376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916454744556521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 3
-  speed: 10
 --- !u!95 &95562780763123846
 Animator:
   serializedVersion: 3

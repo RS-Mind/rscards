@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5311862223840936461}
-  - component: {fileID: 4242409257972805826}
+  - component: {fileID: 114942862658012576}
   m_Layer: 0
-  m_Name: Hitscan_Mono
+  m_Name: Hitscan_Bullet_Mono
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4242409257972805826
+--- !u!114 &114942862658012576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,6 +40,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7566056415136628136}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59ed0efe8e99aae4b8db20feb615bd3d, type: 3}
+  m_Script: {fileID: 11500000, guid: 99c5e044cb16a954aa923f87f4557654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

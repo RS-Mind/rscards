@@ -83,7 +83,6 @@ GameObject:
   - component: {fileID: 224325882300345282}
   - component: {fileID: 222922148782925624}
   - component: {fileID: 114624775960948141}
-  - component: {fileID: 114458657507648298}
   m_Layer: 10
   m_Name: FG_Dots
   m_TagString: Untagged
@@ -145,20 +144,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114458657507648298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218399052029038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 50
-  speed: 4
 --- !u!1 &1379481688602699
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,7 +194,6 @@ GameObject:
   - component: {fileID: 224939338724700211}
   - component: {fileID: 222408434861161223}
   - component: {fileID: 114951122871880352}
-  - component: {fileID: 114882954900076844}
   m_Layer: 10
   m_Name: BG_Blink
   m_TagString: Untagged
@@ -271,20 +255,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114882954900076844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589402671007521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 2
-  speed: 5
 --- !u!1 &1704208130490792
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +266,6 @@ GameObject:
   - component: {fileID: 224184736410969518}
   - component: {fileID: 222639463772400172}
   - component: {fileID: 114205561694437148}
-  - component: {fileID: 114041774557861540}
   - component: {fileID: 95922397226734203}
   - component: {fileID: 225341615478989811}
   m_Layer: 10
@@ -361,20 +330,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114041774557861540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704208130490792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 2
-  speed: 5
 --- !u!95 &95922397226734203
 Animator:
   serializedVersion: 3
@@ -417,7 +372,6 @@ GameObject:
   - component: {fileID: 224700785034611306}
   - component: {fileID: 222987379297748748}
   - component: {fileID: 114131153666261861}
-  - component: {fileID: 114252204502458097}
   - component: {fileID: 225561411006621781}
   - component: {fileID: 2817336298687436557}
   m_Layer: 10
@@ -482,20 +436,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114252204502458097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744301018404875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 25
-  speed: 2
 --- !u!225 &225561411006621781
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -538,7 +478,6 @@ GameObject:
   - component: {fileID: 224273179937555935}
   - component: {fileID: 222558280121987752}
   - component: {fileID: 114437406681827422}
-  - component: {fileID: 114476711695580664}
   m_Layer: 10
   m_Name: BG (1)
   m_TagString: Untagged
@@ -600,17 +539,3 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114476711695580664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787664836991560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15

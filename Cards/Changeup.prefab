@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4059372422215643}
   - component: {fileID: 114190967632551620}
-  - component: {fileID: 114554239418549338}
   - component: {fileID: 114421384111938668}
   - component: {fileID: 114081461618018503}
   - component: {fileID: 114200975647727354}
   - component: {fileID: 114997074887337774}
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
+  - component: {fileID: 114251764603904608}
   m_Layer: 0
   m_Name: Changeup
   m_TagString: Untagged
@@ -51,21 +51,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rarityName: Common
---- !u!114 &114554239418549338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043437007509817}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a89d10daf3634254bb2e6b79b9ee4280, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: 
-  targetColor: {r: 0, g: 0, b: 0, a: 0}
-  bgColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,7 +160,6 @@ MonoBehaviour:
   isReloading: 0
   damage: 1
   reloadTime: 1
-  reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 0.7
@@ -188,6 +172,7 @@ MonoBehaviour:
   shakeM: 1
   ammo: 0
   ammoReg: 0
+  reloadTimeAdd: 0
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
@@ -303,3 +288,17 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &114251764603904608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fancyIcon: {fileID: 1790492772407996393, guid: 235f6b0c2e6a284469300fb336ccf687,
+    type: 3}

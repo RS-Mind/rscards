@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 224779232165422762}
   - component: {fileID: 222236102480329804}
   - component: {fileID: 114259552293632786}
-  - component: {fileID: 114254812434790485}
   m_Layer: 10
   m_Name: BG (1)
   m_TagString: Untagged
@@ -73,20 +72,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114254812434790485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064725240323722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15
 --- !u!1 &1090359408939671
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,7 +83,6 @@ GameObject:
   - component: {fileID: 224391149644015739}
   - component: {fileID: 222773377849165441}
   - component: {fileID: 114528224302660037}
-  - component: {fileID: 114630343286639760}
   - component: {fileID: 95702488812630702}
   m_Layer: 10
   m_Name: 'BG_Pattern_Bot '
@@ -161,20 +145,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114630343286639760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1090359408939671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 3
-  speed: 10
 --- !u!95 &95702488812630702
 Animator:
   serializedVersion: 3
@@ -205,7 +175,6 @@ GameObject:
   - component: {fileID: 224048093616997225}
   - component: {fileID: 222267364657361547}
   - component: {fileID: 114990138809515457}
-  - component: {fileID: 114758175223628838}
   m_Layer: 10
   m_Name: FG_Dots
   m_TagString: Untagged
@@ -267,20 +236,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114758175223628838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1302301780810643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15
 --- !u!1 &1341562462196823
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +247,6 @@ GameObject:
   - component: {fileID: 224441794983187040}
   - component: {fileID: 222258754530673052}
   - component: {fileID: 114925253203309688}
-  - component: {fileID: 114870392823506914}
   - component: {fileID: 8570706774708642710}
   - component: {fileID: 7041789310138645722}
   m_Layer: 10
@@ -357,20 +311,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114870392823506914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1341562462196823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15
 --- !u!225 &8570706774708642710
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -485,7 +425,6 @@ GameObject:
   - component: {fileID: 224448523273796748}
   - component: {fileID: 222540376857808286}
   - component: {fileID: 114507500889068324}
-  - component: {fileID: 114549863029215143}
   - component: {fileID: 95307252218837442}
   m_Layer: 10
   m_Name: BG_Pattern_Top
@@ -548,20 +487,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114549863029215143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482913766894818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 3
-  speed: 10
 --- !u!95 &95307252218837442
 Animator:
   serializedVersion: 3

@@ -83,7 +83,6 @@ GameObject:
   - component: {fileID: 224482305828529977}
   - component: {fileID: 222150431274007857}
   - component: {fileID: 114599980747650202}
-  - component: {fileID: 114636008803812047}
   - component: {fileID: 95607701297264212}
   m_Layer: 10
   m_Name: BG (2)
@@ -146,20 +145,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114636008803812047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544809495181599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 3
-  speed: 10
 --- !u!95 &95607701297264212
 Animator:
   serializedVersion: 3
@@ -190,7 +175,6 @@ GameObject:
   - component: {fileID: 224531683610956463}
   - component: {fileID: 222856294154311613}
   - component: {fileID: 114561915771403279}
-  - component: {fileID: 114026325473327768}
   m_Layer: 10
   m_Name: FG_Dots
   m_TagString: Untagged
@@ -252,20 +236,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114026325473327768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721458018759852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15
 --- !u!1 &1899396797167479
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +285,6 @@ GameObject:
   - component: {fileID: 224737303129228270}
   - component: {fileID: 222350642894738977}
   - component: {fileID: 114066701820886870}
-  - component: {fileID: 114618165270231208}
   - component: {fileID: 7283531116115095609}
   - component: {fileID: 120641809840898767}
   m_Layer: 10
@@ -380,20 +349,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &114618165270231208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901675171286000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 15
 --- !u!225 &7283531116115095609
 CanvasGroup:
   m_ObjectHideFlags: 0

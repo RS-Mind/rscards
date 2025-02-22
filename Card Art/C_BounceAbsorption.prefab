@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7045440313099064767}
   - component: {fileID: 4041521476306169809}
   - component: {fileID: 8734370182252659859}
-  - component: {fileID: 8863436315911815432}
   m_Layer: 10
   m_Name: Stars
   m_TagString: Untagged
@@ -74,20 +73,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &8863436315911815432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214722005490318585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 10
-  speed: 15
 --- !u!1 &243022019951591840
 GameObject:
   m_ObjectHideFlags: 0

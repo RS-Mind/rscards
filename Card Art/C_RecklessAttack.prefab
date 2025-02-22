@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5415078049795824875}
   - component: {fileID: 743656317447143193}
   - component: {fileID: 8535445269386042142}
-  - component: {fileID: 627327417991734431}
   m_Layer: 9
   m_Name: Arm_Left
   m_TagString: Untagged
@@ -73,20 +72,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &627327417991734431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101292369698075995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 10
-  speed: 15
 --- !u!1 &1790492772407996393
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,7 +125,7 @@ Animator:
   m_GameObject: {fileID: 1790492772407996393}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 13949a354a8d46c40a4d673cabb969f1, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -160,7 +145,6 @@ GameObject:
   - component: {fileID: 2126551443230713381}
   - component: {fileID: 6798352938122810618}
   - component: {fileID: 6608901892375556444}
-  - component: {fileID: 6783219342053675386}
   m_Layer: 9
   m_Name: Gun_1-sharedassets0.assets-542 (1)
   m_TagString: Untagged
@@ -222,20 +206,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &6783219342053675386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3109725588541912334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 10
-  speed: 15
 --- !u!1 &3781099936719308888
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +217,6 @@ GameObject:
   - component: {fileID: 4805802147867558578}
   - component: {fileID: 3162556405908014018}
   - component: {fileID: 6605135539734794002}
-  - component: {fileID: 358649552010234419}
   m_Layer: 9
   m_Name: Face
   m_TagString: Untagged
@@ -309,20 +278,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &358649552010234419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3781099936719308888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 10
-  speed: 15
 --- !u!1 &4620321490387158492
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +289,6 @@ GameObject:
   - component: {fileID: 2813334447711147909}
   - component: {fileID: 5370558325538066045}
   - component: {fileID: 5119076092561024654}
-  - component: {fileID: 8645998183372470231}
   m_Layer: 9
   m_Name: Gun_1-sharedassets0.assets-542
   m_TagString: Untagged
@@ -396,20 +350,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &8645998183372470231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4620321490387158492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 10
-  speed: 15
 --- !u!1 &5262200200907180199
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +361,6 @@ GameObject:
   - component: {fileID: 6402877494930523981}
   - component: {fileID: 8535578419138021770}
   - component: {fileID: 5607251276234249355}
-  - component: {fileID: 1945599697658715655}
   m_Layer: 9
   m_Name: Teeth
   m_TagString: Untagged
@@ -483,20 +422,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &1945599697658715655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5262200200907180199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 10
-  speed: 15
 --- !u!1 &9088187846985826027
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,7 +433,6 @@ GameObject:
   - component: {fileID: 4793729800041895003}
   - component: {fileID: 6984984284664379125}
   - component: {fileID: 2167423720233202358}
-  - component: {fileID: 4594925140370008410}
   m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
@@ -570,20 +494,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &4594925140370008410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9088187846985826027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ccfe6a09f11dd4cb40ef88f9da1839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 10
-  speed: 15
 --- !u!1001 &7662433442930279008
 PrefabInstance:
   m_ObjectHideFlags: 0

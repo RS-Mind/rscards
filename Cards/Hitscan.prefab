@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4059372422215643}
   - component: {fileID: 114190967632551620}
-  - component: {fileID: 114554239418549338}
   - component: {fileID: 114421384111938668}
   - component: {fileID: 114081461618018503}
   - component: {fileID: 114200975647727354}
   - component: {fileID: 114997074887337774}
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
+  - component: {fileID: 114953287165491596}
   m_Layer: 0
   m_Name: Hitscan
   m_TagString: Untagged
@@ -51,21 +51,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rarityName: Common
---- !u!114 &114554239418549338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043437007509817}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a89d10daf3634254bb2e6b79b9ee4280, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: 
-  targetColor: {r: 0, g: 0, b: 0, a: 0}
-  bgColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCharacterSlowFreeze: {fileID: 0}
-  AddObjectToPlayer: {fileID: 0}
+  AddObjectToPlayer: {fileID: 7566056415136628136, guid: 7b39e18dc96303c40ad292121fb68642,
+    type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
   health: 1
@@ -199,13 +185,13 @@ MonoBehaviour:
   shakeM: 1
   ammo: 0
   ammoReg: 0
-  size: 0
   reloadTimeAdd: 0.5
+  size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
   numberOfProjectiles: 0
   bursts: 0
-  reflects: -999999
+  reflects: 0
   smartBounce: 0
   bulletPortal: 0
   randomBounces: 0
@@ -244,7 +230,7 @@ MonoBehaviour:
     stickToBigTargets: 0
     stickToAllTargets: 0
     zeroZ: 0
-    AddToProjectile: {fileID: 7566056415136628136, guid: 7b39e18dc96303c40ad292121fb68642,
+    AddToProjectile: {fileID: 7566056415136628136, guid: 65dc95351ba5f3647b4e20b8c9e44fc2,
       type: 3}
     removeScriptsFromProjectileObject: 0
     scaleStacks: 0
@@ -331,3 +317,17 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &114953287165491596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fancyIcon: {fileID: 1790492772407996393, guid: 01fc1bdfe5cf5fc4f9d2bdf1b9bed8af,
+    type: 3}

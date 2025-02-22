@@ -1,3 +1,7 @@
+#### 1.4.0
+- Added card icons for Fancy Card Bar
+- Fixed another issue with Hitscan
+
 #### 1.3.6
 - Fixed an issue with Twin Scythe
 - Fixed an issue with Hitscan

@@ -18,13 +18,14 @@ namespace RSCards
     [BepInDependency("pykess.rounds.plugins.moddingutils", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("pykess.rounds.plugins.cardchoicespawnuniquecardpatch", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.dk.rounds.plugins.zerogpatch", BepInDependency.DependencyFlags.HardDependency)]
+    [BepInDependency("com.rsmind.rounds.fancycardbar", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInPlugin(ModId, ModName, Version)]
     [BepInProcess("Rounds.exe")]
     public class RSCards : BaseUnityPlugin
     {
         private const string ModId = "com.rsmind.rounds.RSCards";
         private const string ModName = "RSCards";
-        public const string Version = "1.3.6";
+        public const string Version = "1.4.0";
         public const string ModInitials = "RSC";
         public static RSCards instance { get; private set; }
 

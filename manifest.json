@@ -1,6 +1,6 @@
 {
     "name": "RSCards",
-    "version_number": "1.3.6",
+    "version_number": "1.4.0",
     "website_url": "https://github.com/RS-Mind/rscards",
     "description": "Cards for ROUNDS focused on adding variety with vanilla stats",
     "dependencies": [
