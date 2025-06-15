@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1043437007509817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4059372422215643}
+  - component: {fileID: 114190967632551620}
+  - component: {fileID: 114421384111938668}
+  - component: {fileID: 114081461618018503}
+  - component: {fileID: 114200975647727354}
+  - component: {fileID: 114997074887337774}
+  - component: {fileID: 114969577739340399}
+  - component: {fileID: 114193385136356738}
+  - component: {fileID: 9050247095601100327}
+  - component: {fileID: 114194420824565622}
+  m_Layer: 0
+  m_Name: Spare Shotgun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4059372422215643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: 4.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114190967632551620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b2bbcc09027464da20acbbb271927e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rarityName: Uncommon
+--- !u!114 &114421384111938668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b032fe9cba4be49be5bb256561788b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundDisableBlockBasic: 0
+  cardName: Spare Shotgun
+  cardDestription: 'Gives you a backup shotgun
+
+    Press Q/E to change weapons'
+  cardStats: []
+  rarity: 1
+  cardArt: {fileID: 1154447185106428, guid: bc1bba650a989b74da8bc7129e1691e4, type: 3}
+  sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
+  sourceCard: {fileID: 0}
+  cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
+  categories: []
+  allowMultiple: 0
+  blacklistedCategories: []
+  cardBase: {fileID: 1720757555582362, guid: ab7829e25091330408953c12456bfb86, type: 3}
+  colorTheme: 1
+--- !u!114 &114081461618018503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7455d82e3521142be110549e6130ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundCharacterSlowFreeze: {fileID: 0}
+  AddObjectToPlayer: {fileID: 0}
+  objectsAddedToPlayer: []
+  sizeMultiplier: 1
+  health: 1
+  movementSpeed: 1
+  jump: 1
+  gravity: 1
+  slow: 0
+  slowSlow: 0
+  fastSlow: 0
+  secondsToTakeDamageOver: 0
+  numberOfJumps: 0
+  regen: 0
+  lifeSteal: 0
+  refreshOnDamage: 0
+  automaticReload: 1
+  respawns: 0
+  remainingRespawns: 0
+  tasteOfBloodSpeed: 1
+  rageSpeed: 1
+  attackSpeedMultiplier: 1
+  slowPart: {fileID: 0}
+--- !u!114 &114200975647727354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92295fe49b73614591f58e9ea25e35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdable: {fileID: 0}
+  sinceAttack: 10
+  soundGun:
+    howManyShotModifiers: 3
+    shotModifierLowerVolumeDbIf2: -3
+    shotModifierLowerVolumeDbIf3: -6
+    soundShotModifierBasic: {fileID: 0}
+    howManyImpactModifiers: 2
+    impactModifierLowerVolumeDbIf2: -3
+    impactModifierLowerVolumeDbIf3: -6
+    soundImpactModifierBasic: {fileID: 0}
+    soundImpactModifierDamageToExplosionMedium: {fileID: 0}
+    soundImpactModifierDamageToExplosionHuge: {fileID: 0}
+    soundImpactBounce: {fileID: 0}
+    soundImpactBullet: {fileID: 0}
+  soundShotModifier: {fileID: 0}
+  soundImpactModifier: {fileID: 0}
+  soundDisableRayHitBulletSound: 0
+  recoil: 0
+  bodyRecoil: 0
+  shake: 0
+  forceSpecificShake: 0
+  projectiles: []
+  shootPosition: {fileID: 0}
+  player: {fileID: 0}
+  isReloading: 0
+  damage: 1
+  reloadTime: 1
+  reloadTimeAdd: 0
+  recoilMuiltiplier: 1
+  knockback: 1
+  attackSpeed: 1
+  projectileSpeed: 1
+  projectielSimulatonSpeed: 1
+  gravity: 1
+  damageAfterDistanceMultiplier: 1
+  bulletDamageMultiplier: 1
+  multiplySpread: 1
+  shakeM: 1
+  ammo: 0
+  ammoReg: 0
+  size: 0
+  overheatMultiplier: 0
+  timeToReachFullMovementMultiplier: 0
+  numberOfProjectiles: 0
+  bursts: 0
+  reflects: 0
+  smartBounce: 0
+  bulletPortal: 0
+  randomBounces: 0
+  timeBetweenBullets: 0
+  projectileSize: 0
+  speedMOnBounce: 1
+  dmgMOnBounce: 1
+  drag: 0
+  dragMinSpeed: 1
+  spread: 0
+  evenSpread: 0
+  percentageDamage: 0
+  cos: 0
+  slow: 0
+  chargeDamageMultiplier: 1
+  chargeSpreadTo: 0
+  chargeEvenSpreadTo: 0
+  chargeSpeedTo: 0
+  chargeRecoilTo: 0
+  chargeNumberOfProjectilesTo: 0
+  destroyBulletAfter: 0
+  forceSpecificAttackSpeed: 0
+  lockGunToDefault: 0
+  unblockable: 0
+  ignoreWalls: 0
+  currentCharge: 0
+  useCharge: 0
+  dontAllowAutoFire: 0
+  objectsToSpawn: []
+  projectileColor: {r: 0, g: 0, b: 0, a: 1}
+  waveMovement: 0
+  teleport: 0
+  spawnSkelletonSquare: 0
+  explodeNearEnemyRange: 0
+  explodeNearEnemyDamage: 0
+  hitMovementMultiplier: 1
+  isProjectileGun: 0
+  defaultCooldown: 1
+  attackID: -1
+  attackSpeedMultiplier: 1
+--- !u!114 &114997074887337774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 786953031, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundBlockStart: {fileID: 0}
+  soundBlockRecharged: {fileID: 0}
+  soundBlockBlocked: {fileID: 0}
+  soundBlockStatusEffect: {fileID: 0}
+  objectsToSpawn: []
+  sinceBlock: 0
+  particle: {fileID: 0}
+  reloadParticle: {fileID: 0}
+  blockedPart: {fileID: 0}
+  cooldown: 0
+  counter: 1000
+  cdMultiplier: 1
+  cdAdd: 0
+  forceToAdd: 0
+  forceToAddUp: 0
+  autoBlock: 0
+  blockedThisFrame: 0
+  additionalBlocks: 0
+  healing: 0
+  blockedAtPos: {x: 0, y: 0, z: 0}
+  delayOtherActions: 0
+  statusBlockPart: {fileID: 0}
+--- !u!114 &114969577739340399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d09e61d8798559c41879e0963ec23e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootToPick: 0
+--- !u!114 &114193385136356738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1283557461, guid: cc8a520cdc1a71048ac77742d0ea6366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Group: 0
+  prefixField: -1
+  observableSearch: 0
+  Synchronization: 0
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &9050247095601100327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fancyIcon: {fileID: 1790492772407996393, guid: c532376eb05fe3e4db955c591242be51,
+    type: 3}
+--- !u!114 &114194420824565622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043437007509817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52531e3d5d97c04ab35fdc0335850d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 8750284249145211610, guid: 65ce733bd13535e46b44613ac6ba3c68, type: 3}
+  applyCardStats: 1

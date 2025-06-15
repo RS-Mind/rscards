@@ -1,16 +1,11 @@
 ﻿using BepInEx;
 using CardChoiceSpawnUniqueCardPatch.CustomCategories;
 using HarmonyLib;
-using RSCards.Cards;
-using RSCards.Utilities;
-using UnboundLib.Cards;
 using UnboundLib.GameModes;
-using UnboundLib.Utils;
 using Jotunn.Utils;
 using UnityEngine;
 using System.Collections;
-using UnboundLib;
-using System.Linq;
+using System.Collections.Generic;
 
 namespace RSCards
 {
@@ -18,6 +13,7 @@ namespace RSCards
     [BepInDependency("pykess.rounds.plugins.moddingutils", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("pykess.rounds.plugins.cardchoicespawnuniquecardpatch", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.dk.rounds.plugins.zerogpatch", BepInDependency.DependencyFlags.HardDependency)]
+    [BepInDependency("com.rsmind.rounds.weaponsmanager", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.rsmind.rounds.fancycardbar", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInPlugin(ModId, ModName, Version)]
     [BepInProcess("Rounds.exe")]
@@ -25,7 +21,7 @@ namespace RSCards
     {
         private const string ModId = "com.rsmind.rounds.RSCards";
         private const string ModName = "RSCards";
-        public const string Version = "1.4.0";
+        public const string Version = "1.4.3";
         public const string ModInitials = "RSC";
         public static RSCards instance { get; private set; }
 
@@ -37,9 +33,9 @@ namespace RSCards
 
         void Start()
         {
-            foreach (BaseUnityPlugin plugin in BepInEx.Bootstrap.Chainloader.Plugins)
+            foreach (KeyValuePair<string, PluginInfo> pluginInfo in BepInEx.Bootstrap.Chainloader.PluginInfos)
             {
-                if (plugin.Info.Metadata.GUID == "com.rsmind.rounds.RSClasses")
+                if (pluginInfo.Value.Metadata.GUID == "com.rsmind.rounds.RSClasses")
                 {
                     RSClasses = true;
                     break;
@@ -47,14 +43,13 @@ namespace RSCards
             }
 
             instance = this;
-
             RSCards.assets = AssetUtils.LoadAssetBundleFromResources("rscardart", typeof(RSCards).Assembly);
-            assets.LoadAsset<GameObject>("CardHolder").GetComponent<CardHolder>().RegisterCards();
 
             if (RSCards.assets == null)
             {
                 UnityEngine.Debug.Log("Failed to load RSCards asset bundle");
             }
+            assets.LoadAsset<GameObject>("CardHolder").GetComponent<CardHolder>().RegisterCards();
 
             GameModeManager.AddHook(GameModeHooks.HookPlayerPickStart, PlayerPickStart);
         }

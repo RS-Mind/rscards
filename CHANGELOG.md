@@ -1,3 +1,14 @@
+#### 1.4.3
+- Another fix to Twin Scythe
+
+#### 1.4.2
+- New card: Spare Shotgun. Gives you a shotgun you can switch to (faster than reloading)
+- Fixes to Twin Scythe (code was rewritten to match that of Astronomer)
+- Various art tweaks
+
+#### 1.4.1
+- Various art tweaks
+
 #### 1.4.0
 - Added card icons for Fancy Card Bar
 - Fixed another issue with Hitscan

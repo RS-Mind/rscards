@@ -52,6 +52,11 @@ Convert your sinful lifesteal into proper health
 - +100% DMG
 - -50% Bullet speed
 
+### Spare Shotgun
+[Uncommon]
+Gives you a backup shotgun
+Press Q/E to change weapons
+
 ### Split
 [Common]
 - +3 Ammo
