@@ -1,3 +1,6 @@
+#### 1.4.4
+- Updated to support the newer version of Weapons Manager
+
 #### 1.4.3
 - Another fix to Twin Scythe
 

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   - component: {fileID: 9050247095601100327}
-  - component: {fileID: 114194420824565622}
+  - component: {fileID: 114220211665339516}
   m_Layer: 0
   m_Name: Spare Shotgun
   m_TagString: Untagged
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fancyIcon: {fileID: 1790492772407996393, guid: c532376eb05fe3e4db955c591242be51,
     type: 3}
---- !u!114 &114194420824565622
+--- !u!114 &114220211665339516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -311,3 +311,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 8750284249145211610, guid: 65ce733bd13535e46b44613ac6ba3c68, type: 3}
   applyCardStats: 1
+  icon: {fileID: 1790492772407996393, guid: c532376eb05fe3e4db955c591242be51, type: 3}
+  weaponName: Spare Shotgun
