@@ -148,7 +148,7 @@ namespace RSCards.MonoBehaviors
             color = player.GetTeamColors().color;
             int scytheCount = 0;
             foreach(CardInfo card in player.data.currentCards)
-                if (card.name == "Twin Scythe") scytheCount++;
+                if (card == CardHolder.cards["Twin Scythe"]) scytheCount++;
             scytheCount = Math.Min(scytheCount, 4);
             while (scythes.Count() < scytheCount) // Create scythes as needed
             {

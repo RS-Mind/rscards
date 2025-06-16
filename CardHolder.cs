@@ -11,6 +11,7 @@ namespace RSCards
     {
         public List<GameObject> Cards;
         public List<GameObject> HiddenCards;
+        public static Dictionary<string, CardInfo> cards = new Dictionary<string, CardInfo>();
 
         internal void RegisterCards()
         {
@@ -31,6 +32,7 @@ namespace RSCards
                 }
                 CustomCard.RegisterUnityCard(Card, RSCards.ModInitials, Card.GetComponent<CardInfo>().cardName, true, null);
                 CustomCardCategories.instance.UpdateAndPullCategoriesFromCard(Card.GetComponent<CardInfo>());
+                cards.Add(Card.GetComponent<CardInfo>().cardName, Card.GetComponent<CardInfo>());
             }
             foreach (var Card in HiddenCards)
             {
@@ -42,6 +44,7 @@ namespace RSCards
                 CustomCard.RegisterUnityCard(Card, RSCards.ModInitials, Card.GetComponent<CardInfo>().cardName, false, null);
                 CustomCardCategories.instance.UpdateAndPullCategoriesFromCard(Card.GetComponent<CardInfo>());
                 ModdingUtils.Utils.Cards.instance.AddHiddenCard(Card.GetComponent<CardInfo>());
+                cards.Add(Card.GetComponent<CardInfo>().cardName, Card.GetComponent<CardInfo>());
             }
         }
     }
