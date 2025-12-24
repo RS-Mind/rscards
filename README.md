@@ -6,7 +6,7 @@ Cards for ROUNDS focused on adding variety with vanilla stats
 ### Bounce Absorption
 [Uncommon]
 Converts bounces to raw power
-- +50% DMG
+- +75% DMG
 - +50% Bullet speed
 - -2 Bullet bounces
 
@@ -18,7 +18,7 @@ Bullets keep the default trajectory
 
 ### Hitscan
 [Uncommon]
-- +900% Bullet speed
+- +900% Projectile speed
 - No Bullet gravity
 - No Bullet bounces
 - -50% ATKSPD
@@ -35,11 +35,25 @@ Shooting redirects your bullets towards the cursor
 - -0.5s Reload time
 - -25% Bullet Speed
 
+### Rebound
+[Common]
+- +1 Bounce
+- -15% Movement speed
+
 ### Reckless Attack
 [Uncommon]
 - +100% ATKSPD
 - -0.5s Reload time
-- -50% DMG
+- -30% DMG
+
+### Reflection Accelerant
+[Rare]
+Bullets gain 50% speed when they bounce
+- +2 Bounces
+
+### Regenerator
+[Common]
+- +5/s HP regen
 
 ### Repentance
 [Common]

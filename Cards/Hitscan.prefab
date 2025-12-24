@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b2bbcc09027464da20acbbb271927e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rarityName: Common
+  rarity: 3
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,8 +68,8 @@ MonoBehaviour:
   cardDestription: 
   cardStats:
   - positive: 1
-    amount: +9000%
-    simepleAmount: 2
+    amount: +900%
+    simepleAmount: 0
     stat: Projectile speed
   - positive: 1
     amount: No
@@ -81,11 +81,11 @@ MonoBehaviour:
     stat: Bullet bounces
   - positive: 0
     amount: -50%
-    simepleAmount: 2
+    simepleAmount: 0
     stat: ATKSPD
   - positive: 0
     amount: +0.5s
-    simepleAmount: 2
+    simepleAmount: 0
     stat: Reload Speed
   rarity: 1
   cardArt: {fileID: 1790492772407996393, guid: dcc98e5ce111c184ba77c65cc85633e4, type: 3}
@@ -173,6 +173,7 @@ MonoBehaviour:
   isReloading: 0
   damage: 1
   reloadTime: 1
+  reloadTimeAdd: 0.5
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 2
@@ -185,7 +186,6 @@ MonoBehaviour:
   shakeM: 1
   ammo: 0
   ammoReg: 0
-  reloadTimeAdd: 0.5
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 786953031, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 11500000, guid: ead7330fb99780241a0321f47a2eab68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundBlockStart: {fileID: 0}

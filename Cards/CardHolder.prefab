@@ -55,5 +55,9 @@ MonoBehaviour:
   - {fileID: 1043437007509817, guid: b8e41c304aaad014d83e5bdfeb9a18d0, type: 3}
   - {fileID: 1043437007509817, guid: 0250d50e8d112e04da69f21f7674b378, type: 3}
   - {fileID: 1043437007509817, guid: 54b1909830c93dd429fe2e27ffd18413, type: 3}
+  - {fileID: 1043437007509817, guid: 2d5b77fa9a3d0404495b1125f2fc1f50, type: 3}
+  - {fileID: 1043437007509817, guid: f0d0182d268b31e40af19124072a012e, type: 3}
+  - {fileID: 1043437007509817, guid: 4dc234532185826449886c43a6f3c1a9, type: 3}
+  - {fileID: 1043437007509817, guid: 1460e3543fbb1b5448b84b06f1958a04, type: 3}
   HiddenCards:
   - {fileID: 1043437007509817, guid: 0550fb1d6ace8144ca7b725d7dd056ee, type: 3}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2087086995159597331}
   - component: {fileID: 8750284249145211610}
   m_Layer: 0
-  m_Name: Shotgun
+  m_Name: Spare Shotgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1142352501204854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -498367356, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: -498367356, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rig: {fileID: 50496374742963115}
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1142352501204854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1662383224, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 1662383224, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   holdable: {fileID: 2087086995159597331}
@@ -88,20 +88,20 @@ MonoBehaviour:
     howManyShotModifiers: 3
     shotModifierLowerVolumeDbIf2: -3
     shotModifierLowerVolumeDbIf3: -6
-    soundShotModifierBasic: {fileID: 11400000, guid: 3a1612f626915db4d9a2c1989d8c145a,
+    soundShotModifierBasic: {fileID: 11400000, guid: 9dda798511f9ca644a9d0fc2b91cc738,
       type: 2}
     howManyImpactModifiers: 2
     impactModifierLowerVolumeDbIf2: -3
     impactModifierLowerVolumeDbIf3: -6
-    soundImpactModifierBasic: {fileID: 11400000, guid: aa4d569cf4c8542469405061be865ca0,
+    soundImpactModifierBasic: {fileID: 11400000, guid: a50421dc103a90e49ae2d65a877cb602,
       type: 2}
-    soundImpactModifierDamageToExplosionMedium: {fileID: 11400000, guid: 9d27813304c74e24fa6679bb4cc2bf97,
+    soundImpactModifierDamageToExplosionMedium: {fileID: 11400000, guid: 71a6c1e3e83cc134d938791e0cc26a54,
       type: 2}
-    soundImpactModifierDamageToExplosionHuge: {fileID: 11400000, guid: 658299720de51c347b90538ba0ad91a9,
+    soundImpactModifierDamageToExplosionHuge: {fileID: 11400000, guid: 94f91738a896b9843a38c00220242c3c,
       type: 2}
-    soundImpactBounce: {fileID: 11400000, guid: b1a449b6e235d9d4294ed95ec816be4f,
+    soundImpactBounce: {fileID: 11400000, guid: 32c95f18662cb6b49af95ca05365d745,
       type: 2}
-    soundImpactBullet: {fileID: 11400000, guid: ce494146c59e2cc4ba435205b265e3be,
+    soundImpactBullet: {fileID: 11400000, guid: ed5ebd10a3fd10342ae1e48fee8f51c1,
       type: 2}
   soundShotModifier: {fileID: 0}
   soundImpactModifier: {fileID: 0}
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1142524466342783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1391672608, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 1391672608, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1725965295266612}
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185534971750718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 270599315, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 270599315, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _verts:
@@ -622,9 +622,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 246c99431a6dbe14789b85e5bcf959d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundReloadInProgressLoop: {fileID: 11400000, guid: a669a838bcd213044b3129f37ea8a2e4,
+  soundReloadInProgressLoop: {fileID: 11400000, guid: 3a7c79ce150e32e47a898673fcbe41ed,
     type: 2}
-  soundReloadComplete: {fileID: 11400000, guid: 09d2549a16a71b348b404edc22baa73d,
+  soundReloadComplete: {fileID: 11400000, guid: 99cc74a552767024bada6bc45bf8ac3a,
     type: 2}
   maxAmmo: 8
   reloadTime: 2
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1282074179019680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 270599315, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 270599315, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _verts:
@@ -923,7 +923,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1399125035785535}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 270599315, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 270599315, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _verts:
@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1519271663860440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 270599315, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 270599315, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _verts:
@@ -2379,7 +2379,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4910009572296571330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 270599315, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 270599315, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _verts:

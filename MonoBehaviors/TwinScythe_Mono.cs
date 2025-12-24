@@ -107,7 +107,7 @@ namespace RSCards.MonoBehaviors
 
         private void FixedUpdate()
         {
-            angle += 200 * TimeHandler.deltaTime; // Update rotation
+            angle += 200 * TimeHandler.fixedDeltaTime; // Update rotation
             if (angle > 360) // After a full rotation, re-enable all scythes
             {
                 foreach (Scythe scythe in scythes)
@@ -116,7 +116,7 @@ namespace RSCards.MonoBehaviors
                 }
                 angle -= 360;
             }
-            rotation = (rotation - (1200 * TimeHandler.deltaTime)) % 360;
+            rotation = (rotation - (1200 * TimeHandler.fixedDeltaTime)) % 360;
 
             int index = 0;
             foreach (Scythe scythe in scythes) // Tell each scythe where it belongs

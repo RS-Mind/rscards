@@ -3,7 +3,8 @@
     "references": [
         "ModdingUtils",
         "CardChoiceSpawnUniqueCardPatch",
-        "UnboundLib"
+        "UnboundLib",
+        "RarityLib"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
@@ -13,10 +14,10 @@
     "precompiledReferences": [
         "0Harmony.dll",
         "BepInEx.dll",
-        "Assembly-CSharp.dll",
         "PhotonUnityNetworking.dll",
+        "SonigonAudioEngine.Runtime.dll",
         "InControl.dll",
-        "SonigonAudioEngine.Runtime.dll"
+        "Assembly-CSharp.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": []

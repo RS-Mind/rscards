@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b2bbcc09027464da20acbbb271927e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rarityName: Uncommon
+  rarity: 3
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 786953031, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 11500000, guid: ead7330fb99780241a0321f47a2eab68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundBlockStart: {fileID: 0}
@@ -311,5 +311,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 8750284249145211610, guid: 65ce733bd13535e46b44613ac6ba3c68, type: 3}
   applyCardStats: 1
+  inactiveReloadTimeMultiplier: 0.25
   icon: {fileID: 1790492772407996393, guid: c532376eb05fe3e4db955c591242be51, type: 3}
   weaponName: Spare Shotgun

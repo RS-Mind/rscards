@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b2bbcc09027464da20acbbb271927e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rarityName: Common
+  rarity: 1
 --- !u!114 &114421384111938668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,15 +65,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Repen10ce
-  cardDestription: Ever notice the mispelling
+  cardDestription: Did you notice the mispelling?
   cardStats:
   - positive: 1
     amount: +900%
-    simepleAmount: 2
+    simepleAmount: 0
     stat: Damage
   - positive: 0
     amount: -98%
-    simepleAmount: 2
+    simepleAmount: 0
     stat: HP
   rarity: 2
   cardArt: {fileID: 4980005081120716007, guid: 450797609dec6594c8f3d572613b457a, type: 3}
@@ -160,6 +160,7 @@ MonoBehaviour:
   isReloading: 0
   damage: 10
   reloadTime: 1
+  reloadTimeAdd: 0
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 1
@@ -172,7 +173,6 @@ MonoBehaviour:
   shakeM: 1
   ammo: 0
   ammoReg: 0
-  reloadTimeAdd: 0
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043437007509817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 786953031, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 11500000, guid: ead7330fb99780241a0321f47a2eab68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundBlockStart: {fileID: 0}

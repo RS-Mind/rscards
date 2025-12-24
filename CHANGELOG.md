@@ -1,3 +1,11 @@
+#### 1.5.0
+- New Card: Reflection Accelerant. Bullets gain 50% speed when they bounce. +2 bounces
+- New Card: Rebound. +1 bounce, -15% movement speed
+- New Card: Regenerator. +5/s HP regen.
+- Increased the damage bonus of Bounce Absorption (+50% -> +75%)
+- Reduced the damage penalty of Reckless Attack (-50% -> -30%)
+- Fixed incorrect stat numbers on Hitscan
+
 #### 1.4.5
 - Fixed a new and unexciting bug with Twin Scythe
 
