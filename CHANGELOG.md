@@ -1,3 +1,6 @@
+#### 1.5.1
+- Fixed issues with card back rendering
+
 #### 1.5.0
 - New Card: Reflection Accelerant. Bullets gain 50% speed when they bounce. +2 bounces
 - New Card: Rebound. +1 bounce, -15% movement speed
