@@ -12,6 +12,8 @@ namespace RSCards
         public List<GameObject> Cards;
         public List<GameObject> HiddenCards;
         public static Dictionary<string, CardInfo> cards = new Dictionary<string, CardInfo>();
+        public CardCategory BounceAbsorptionCategory;
+        public CardCategory RepentanceCategory;
 
         internal void RegisterCards()
         {

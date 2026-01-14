@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 824464305, guid: fbb25f4d567ecbd439bfbdcfed7eb232, type: 3}
+  m_Script: {fileID: 11500000, guid: 516cd0d0765d5344c88439a6a9f7a752, type: 3}
   m_Name: RepentanceCategory
   m_EditorClassIdentifier: 

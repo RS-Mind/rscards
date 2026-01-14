@@ -61,3 +61,6 @@ MonoBehaviour:
   - {fileID: 1043437007509817, guid: 1460e3543fbb1b5448b84b06f1958a04, type: 3}
   HiddenCards:
   - {fileID: 1043437007509817, guid: 0550fb1d6ace8144ca7b725d7dd056ee, type: 3}
+  BounceAbsorptionCategory: {fileID: 11400000, guid: 8be6645483ebaf4408aa14b744d84c06,
+    type: 2}
+  RepentanceCategory: {fileID: 11400000, guid: 054795b8a78981344bb23833681a71f6, type: 2}

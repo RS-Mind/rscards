@@ -1,3 +1,7 @@
+#### 1.5.2
+- Fixed issues with cards showing up when they shouldn't
+- Fixed Open Chamber's icon
+
 #### 1.5.1
 - Fixed issues with card back rendering
 
