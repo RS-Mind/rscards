@@ -54,7 +54,7 @@ MonoBehaviour:
   cardDestription: Converts bounces to raw power
   cardStats:
   - positive: 1
-    amount: +75%
+    amount: +100%
     simepleAmount: 0
     stat: DMG
   - positive: 1
@@ -149,7 +149,7 @@ MonoBehaviour:
   shootPosition: {fileID: 0}
   player: {fileID: 0}
   isReloading: 0
-  damage: 1.75
+  damage: 2
   reloadTime: 1
   reloadTimeAdd: 0
   recoilMuiltiplier: 1

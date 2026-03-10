@@ -54,7 +54,7 @@ MonoBehaviour:
   cardDestription: 
   cardStats:
   - positive: 1
-    amount: +5/s
+    amount: +10/s
     simepleAmount: 0
     stat: HP regen
   rarity: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
   fastSlow: 0
   secondsToTakeDamageOver: 0
   numberOfJumps: 0
-  regen: 5
+  regen: 10
   lifeSteal: 0
   refreshOnDamage: 0
   automaticReload: 1

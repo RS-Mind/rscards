@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 114997074887337774}
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
-  - component: {fileID: 114613173911149464}
+  - component: {fileID: 114256459687187396}
   m_Layer: 0
-  m_Name: Twin Scythe
+  m_Name: Harming Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,21 +50,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
-  cardName: Twin Scythe
-  cardDestription: 'A twin scythe will orbit you, dealing damage and destroying bullets.
-
-    Maximum 4 scythes, but damage continues to increase'
+  cardName: Harming Field
+  cardDestription: Blocking creates a harming field
   cardStats:
   - positive: 1
-    amount: +1
+    amount: +30%
     simepleAmount: 0
-    stat: Scythe
-  - positive: 1
-    amount: +100%
+    stat: Damage
+  - positive: 0
+    amount: +0.25s
     simepleAmount: 0
-    stat: Scythe Damage
+    stat: Block cooldown
   rarity: 0
-  cardArt: {fileID: 9099243542174299042, guid: 6d315a2f98140604f8da878cbfdd9188, type: 3}
+  cardArt: {fileID: 1827755551450474, guid: 0f2121a18df4a464ca835d7856d09973, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
@@ -72,7 +70,7 @@ MonoBehaviour:
   allowMultiple: 1
   blacklistedCategories: []
   cardBase: {fileID: 1720757555582362, guid: ab7829e25091330408953c12456bfb86, type: 3}
-  colorTheme: 8
+  colorTheme: 0
 --- !u!114 &114081461618018503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,7 +84,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCharacterSlowFreeze: {fileID: 0}
-  AddObjectToPlayer: {fileID: 7566056415136628136, guid: ed93332cb15044945a997d6134abbed1,
+  AddObjectToPlayer: {fileID: 1374471398531748, guid: cee0f06aeafd6d44f8c74f1a0171ad25,
     type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
@@ -147,7 +145,7 @@ MonoBehaviour:
   shootPosition: {fileID: 0}
   player: {fileID: 0}
   isReloading: 0
-  damage: 1
+  damage: 1.3
   reloadTime: 1
   reloadTimeAdd: 0
   recoilMuiltiplier: 1
@@ -232,7 +230,7 @@ MonoBehaviour:
   cooldown: 0
   counter: 1000
   cdMultiplier: 1
-  cdAdd: 0
+  cdAdd: 0.25
   forceToAdd: 0
   forceToAddUp: 0
   autoBlock: 0
@@ -277,7 +275,7 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &114613173911149464
+--- !u!114 &114256459687187396
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -289,5 +287,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 50e96753b25c3c54f92550cc953b56c8,
+  fancyIcon: {fileID: 1790492772407996393, guid: 97c2f1eb3686d7349ab8d4bf4e66c011,
     type: 3}

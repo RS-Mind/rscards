@@ -1,3 +1,14 @@
+#### 1.6.0
+- Added Harming Field
+- Increased Bounce Absorption's damage (+75% -> +100%)
+- Removed Rebound's movement speed penalty
+- Reduced Reckless Attack's damage penalty (-30% -> -15%)
+- Increased the regeneration granted by Regnerator (5 -> 10)
+- Reduced the bullet speed penalty of Slug (-50% -> -25%)
+- Reduced the damage penalty of Split (-50% -> -25%)
+- Reduced the rarity of Twin Scythe (Uncommon -> Common)
+- Fixed incorrect coloring of Twin Scythe
+
 #### 1.5.2
 - Fixed issues with cards showing up when they shouldn't
 - Fixed Open Chamber's icon

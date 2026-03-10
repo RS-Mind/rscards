@@ -57,10 +57,6 @@ MonoBehaviour:
     amount: +1
     simepleAmount: 0
     stat: Bounce
-  - positive: 0
-    amount: -15%
-    simepleAmount: 0
-    stat: Movement speed
   rarity: 0
   cardArt: {fileID: 8590173525557491856, guid: 6e3a108a959f2d84eb75d00be014f9e2, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -88,7 +84,7 @@ MonoBehaviour:
   objectsAddedToPlayer: []
   sizeMultiplier: 1
   health: 1
-  movementSpeed: 0.85
+  movementSpeed: 1
   jump: 1
   gravity: 1
   slow: 0

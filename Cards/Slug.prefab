@@ -58,7 +58,7 @@ MonoBehaviour:
     simepleAmount: 2
     stat: DMG
   - positive: 0
-    amount: -50%
+    amount: -25%
     simepleAmount: 2
     stat: Bullet speed
   rarity: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 1
-  projectileSpeed: 0.5
+  projectileSpeed: 0.75
   projectielSimulatonSpeed: 1
   gravity: 1
   damageAfterDistanceMultiplier: 1

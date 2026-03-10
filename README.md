@@ -6,7 +6,7 @@ Cards for ROUNDS focused on adding variety with vanilla stats
 ### Bounce Absorption
 [Uncommon]
 Converts bounces to raw power
-- +75% DMG
+- +100% DMG
 - +50% Bullet speed
 - -2 Bullet bounces
 
@@ -15,6 +15,12 @@ Converts bounces to raw power
 Bullets keep the default trajectory
 - +50% ATKSPD
 - -30% Projectile Speed
+
+### Harming Field
+[Common]
+Blocking creates a harming field
+- +30% Damage
+- +0.25s Block cooldown
 
 ### Hitscan
 [Uncommon]
@@ -38,13 +44,12 @@ Shooting redirects your bullets towards the cursor
 ### Rebound
 [Common]
 - +1 Bounce
-- -15% Movement speed
 
 ### Reckless Attack
 [Uncommon]
 - +100% ATKSPD
 - -0.5s Reload time
-- -30% DMG
+- -15% DMG
 
 ### Reflection Accelerant
 [Rare]
@@ -53,7 +58,7 @@ Bullets gain 50% speed when they bounce
 
 ### Regenerator
 [Common]
-- +5/s HP regen
+- +10/s HP regen
 
 ### Repentance
 [Common]
@@ -64,7 +69,7 @@ Convert your sinful lifesteal into proper health
 ### Slug
 [Common]
 - +100% DMG
-- -50% Bullet speed
+- -25% Bullet speed
 
 ### Spare Shotgun
 [Uncommon]
@@ -75,10 +80,12 @@ Press Q/E to change weapons
 [Common]
 - +3 Ammo
 - -0.5s Reload Time
-- -50% DMG
+- -25% DMG
 
 ### Twin Scythe
-[Uncommon]
+[Common]
 A twin scythe will orbit you, dealing damage and destroying bullets
 
-Every copy of this card after the 4th doesn't give a new scythe, instead only increasing damage. This card will not work in sandbox. This card will not appear if RSClasses is installed, being replaced by the astronomer class.
+Every copy of this card after the 4th doesn't give a new scythe, instead only increasing damage.
+This card will not work in sandbox.
+This card will not appear if RSClasses is installed, being replaced by the astronomer class.

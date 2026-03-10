@@ -13,7 +13,7 @@ namespace RSCards.MonoBehaviors
     {
         public bool ableToHit = true;
         public bool active = true;
-        public float damage = 35;
+        public float damage = 95;
         private Player player;
         private Dictionary<int, float> recent = new Dictionary<int, float>();
         GameObject scythe;
