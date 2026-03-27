@@ -66,13 +66,9 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Bullet bounces
   - positive: 0
-    amount: -50%
+    amount: -25%
     simepleAmount: 0
     stat: ATKSPD
-  - positive: 0
-    amount: +0.5s
-    simepleAmount: 0
-    stat: Reload Speed
   rarity: 1
   cardArt: {fileID: 1790492772407996393, guid: dcc98e5ce111c184ba77c65cc85633e4, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
@@ -159,10 +155,10 @@ MonoBehaviour:
   isReloading: 0
   damage: 1
   reloadTime: 1
-  reloadTimeAdd: 0.5
+  reloadTimeAdd: 1
   recoilMuiltiplier: 1
   knockback: 1
-  attackSpeed: 2
+  attackSpeed: 1.25
   projectileSpeed: 1
   projectielSimulatonSpeed: 100
   gravity: 0

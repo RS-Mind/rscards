@@ -58,7 +58,7 @@ MonoBehaviour:
     simepleAmount: 0
     stat: Reload time
   - positive: 0
-    amount: -25%
+    amount: -15%
     simepleAmount: 0
     stat: Bullet speed
   rarity: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 1
-  projectileSpeed: 0.75
+  projectileSpeed: 0.85
   projectielSimulatonSpeed: 1
   gravity: 1
   damageAfterDistanceMultiplier: 1

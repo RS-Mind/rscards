@@ -1,3 +1,11 @@
+#### 1.7.0
+- Reduced Hitscan's ATKSPD penalty (-100% -> -25%). Removed reload time penalty
+- Added 35% damage bonus to Mortar
+- Reduced Open Chamber's bullet speed penalty (-25% -> -15%)
+- Adjusted Reflection Accelerant's speed increase on bounce (+50% -> +35%)
+- Added a flat 25% bullet speed increase to Reflection Accelerant
+- Fixed some cards incorrectly having simple values assigned
+
 #### 1.6.0
 - Added Harming Field
 - Increased Bounce Absorption's damage (+75% -> +100%)

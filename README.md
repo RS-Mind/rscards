@@ -27,19 +27,19 @@ Blocking creates a harming field
 - +900% Projectile speed
 - No Bullet gravity
 - No Bullet bounces
-- -50% ATKSPD
-- +0.5s Reload time
+- -25% ATKSPD
 
 ### Mortar
 [Uncommon]
 Shooting redirects your bullets towards the cursor
+- +35% Damage
 - No Bullet gravity
 - +0.5s Reload time
 
 ### Open Chamber
 [Common]
 - -0.5s Reload time
-- -25% Bullet Speed
+- -15% Bullet Speed
 
 ### Rebound
 [Common]
@@ -53,7 +53,8 @@ Shooting redirects your bullets towards the cursor
 
 ### Reflection Accelerant
 [Rare]
-Bullets gain 50% speed when they bounce
+Bullets gain 35% speed when they bounce
+- +25% Bullet speed
 - +2 Bounces
 
 ### Regenerator

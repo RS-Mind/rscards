@@ -55,15 +55,15 @@ MonoBehaviour:
   cardStats:
   - positive: 1
     amount: +3
-    simepleAmount: 2
+    simepleAmount: 0
     stat: Ammo
   - positive: 0
     amount: -0.5s
-    simepleAmount: 2
+    simepleAmount: 0
     stat: Reload time
   - positive: 0
     amount: -25%
-    simepleAmount: 2
+    simepleAmount: 0
     stat: DMG
   rarity: 0
   cardArt: {fileID: 1540288686612570371, guid: 045acd440e073d745ad500393afb15a7, type: 3}

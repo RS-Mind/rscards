@@ -55,11 +55,11 @@ MonoBehaviour:
   cardStats:
   - positive: 1
     amount: +100%
-    simepleAmount: 2
+    simepleAmount: 0
     stat: HP
   - positive: 0
     amount: -50%
-    simepleAmount: 2
+    simepleAmount: 0
     stat: Life steal
   rarity: 0
   cardArt: {fileID: 4756791988660705287, guid: 9a99cd09cdb835f4690d5262dc6183cc, type: 3}

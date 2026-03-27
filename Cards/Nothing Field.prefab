@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 114997074887337774}
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
-  - component: {fileID: 114996826374696266}
+  - component: {fileID: 114256459687187396}
   m_Layer: 0
-  m_Name: Repentence
+  m_Name: Nothing Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,28 +50,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
-  cardName: Repentence
-  cardDestription: Convert your sinful lifesteal into proper health
+  cardName: Nothing Field
+  cardDestription: Blocking creates a nothing field
   cardStats:
   - positive: 1
-    amount: +100%
+    amount: +30%
     simepleAmount: 0
-    stat: HP
+    stat: Nothing
   - positive: 0
-    amount: -50%
+    amount: +0.25s
     simepleAmount: 0
-    stat: Life steal
+    stat: Block cooldown
   rarity: 0
-  cardArt: {fileID: 4756791988660705287, guid: 9a99cd09cdb835f4690d5262dc6183cc, type: 3}
+  cardArt: {fileID: 1827755551450474, guid: 06359e516f946bd458666b8b3f59b537, type: 3}
   sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
   sourceCard: {fileID: 0}
   cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
-  categories:
-  - {fileID: 0}
+  categories: []
   allowMultiple: 1
   blacklistedCategories: []
   cardBase: {fileID: 1720757555582362, guid: ab7829e25091330408953c12456bfb86, type: 3}
-  colorTheme: 6
+  colorTheme: 3
 --- !u!114 &114081461618018503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,11 +84,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCharacterSlowFreeze: {fileID: 0}
-  AddObjectToPlayer: {fileID: 7566056415136628136, guid: ab100f85657944c4499721edf4744188,
+  AddObjectToPlayer: {fileID: 1374471398531748, guid: d2b57d3d938d02844bb7164df0b8ad85,
     type: 3}
   objectsAddedToPlayer: []
   sizeMultiplier: 1
-  health: 2
+  health: 1
   movementSpeed: 1
   jump: 1
   gravity: 1
@@ -99,7 +98,7 @@ MonoBehaviour:
   secondsToTakeDamageOver: 0
   numberOfJumps: 0
   regen: 0
-  lifeSteal: -0.5
+  lifeSteal: 0
   refreshOnDamage: 0
   automaticReload: 1
   respawns: 0
@@ -231,7 +230,7 @@ MonoBehaviour:
   cooldown: 0
   counter: 1000
   cdMultiplier: 1
-  cdAdd: 0
+  cdAdd: 0.25
   forceToAdd: 0
   forceToAddUp: 0
   autoBlock: 0
@@ -276,7 +275,7 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &114996826374696266
+--- !u!114 &114256459687187396
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -288,5 +287,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6984fbfec9ffb42910fcec93904b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fancyIcon: {fileID: 1790492772407996393, guid: 0a1f274d63a74e94985afbb385d239c8,
+  fancyIcon: {fileID: 1790492772407996393, guid: a9844e544c4e68048b1a3e81714a9fc3,
     type: 3}

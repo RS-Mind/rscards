@@ -55,11 +55,11 @@ MonoBehaviour:
   cardStats:
   - positive: 1
     amount: +100%
-    simepleAmount: 2
+    simepleAmount: 0
     stat: DMG
   - positive: 0
     amount: -25%
-    simepleAmount: 2
+    simepleAmount: 0
     stat: Bullet speed
   rarity: 0
   cardArt: {fileID: 5855951642357849299, guid: 46930808a156183438517d7a5d603dd6, type: 3}

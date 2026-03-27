@@ -54,6 +54,10 @@ MonoBehaviour:
   cardDestription: Shooting redirects your bullets towards the cursor
   cardStats:
   - positive: 1
+    amount: +35%
+    simepleAmount: 0
+    stat: Damage
+  - positive: 1
     amount: No
     simepleAmount: 0
     stat: Bullet gravity
@@ -145,7 +149,7 @@ MonoBehaviour:
   shootPosition: {fileID: 0}
   player: {fileID: 0}
   isReloading: 0
-  damage: 1
+  damage: 1.35
   reloadTime: 1
   reloadTimeAdd: 0.5
   recoilMuiltiplier: 1

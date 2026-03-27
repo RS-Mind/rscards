@@ -11,10 +11,11 @@ namespace RSCards
     {
         public List<GameObject> Cards;
         public List<GameObject> HiddenCards;
+        public List<string> AprilFoolsCards;
+        public List<string> NonAprilFoolsCards;
         public static Dictionary<string, CardInfo> cards = new Dictionary<string, CardInfo>();
         public CardCategory BounceAbsorptionCategory;
         public CardCategory RepentanceCategory;
-
         internal void RegisterCards()
         {
             foreach (var Card in Cards)
@@ -24,11 +25,11 @@ namespace RSCards
                 {
                     continue;
                 }
-                if (!DateTools.WeekOf(new System.DateTime(System.DateTime.UtcNow.Year, 4, 1)) && Card.name == "Repentence")
+                if (!DateTools.WeekOf(new System.DateTime(System.DateTime.UtcNow.Year, 4, 1)) && AprilFoolsCards.Contains(Card.name))
                 {
                     continue;
                 }
-                if (DateTools.WeekOf(new System.DateTime(System.DateTime.UtcNow.Year, 4, 1)) && Card.name == "Repentance")
+                if (DateTools.WeekOf(new System.DateTime(System.DateTime.UtcNow.Year, 4, 1)) && NonAprilFoolsCards.Contains(Card.name))
                 {
                     continue;
                 }
@@ -39,7 +40,7 @@ namespace RSCards
             foreach (var Card in HiddenCards)
             {
                 Card.AddComponent<Template>();
-                if (!DateTools.WeekOf(new System.DateTime(System.DateTime.UtcNow.Year, 4, 1)) && Card.name == "Repen10ce")
+                if (!DateTools.WeekOf(new System.DateTime(System.DateTime.UtcNow.Year, 4, 1)) && AprilFoolsCards.Contains(Card.name))
                 {
                     continue;
                 }

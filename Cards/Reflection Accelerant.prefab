@@ -51,8 +51,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
   cardName: Reflection Accelerant
-  cardDestription: Bullets gain 50% speed when they bounce
+  cardDestription: Bullets gain 35% speed when they bounce
   cardStats:
+  - positive: 1
+    amount: +25%
+    simepleAmount: 0
+    stat: Bullet speed
   - positive: 1
     amount: +2
     simepleAmount: 0
@@ -146,7 +150,7 @@ MonoBehaviour:
   recoilMuiltiplier: 1
   knockback: 1
   attackSpeed: 1
-  projectileSpeed: 1
+  projectileSpeed: 1.25
   projectielSimulatonSpeed: 1
   gravity: 1
   damageAfterDistanceMultiplier: 1
@@ -166,7 +170,7 @@ MonoBehaviour:
   randomBounces: 0
   timeBetweenBullets: 0
   projectileSize: 0
-  speedMOnBounce: 1.5
+  speedMOnBounce: 1.35
   dmgMOnBounce: 1
   drag: 0
   dragMinSpeed: 1
