@@ -392,3 +392,5 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 Sample Card.unity
+MonoBehaviors/Secrets.cs
+MonoBehaviors/Secrets.cs.meta

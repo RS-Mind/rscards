@@ -1,3 +1,6 @@
+#### 1.7.1
+- Added the edge bounce mono to Rebound and Reflection Accelerant
+
 #### 1.7.0
 - Reduced Hitscan's ATKSPD penalty (-100% -> -25%). Removed reload time penalty
 - Added 35% damage bonus to Mortar
