@@ -145,7 +145,7 @@ namespace RSCards.MonoBehaviors
 
         public void UpdateStats()
         {
-            color = player.GetTeamColors().color;
+            color = player.GetTeamColors().particleEffect;
             int scytheCount = 0;
             foreach(CardInfo card in player.data.currentCards)
                 if (card == CardHolder.cards["Twin Scythe"]) scytheCount++;
