@@ -85,8 +85,11 @@ Press Q/E to change weapons
 
 ### Twin Scythe
 [Common]
-A twin scythe will orbit you, dealing damage and destroying bullets
+A twin scythe will orbit you, dealing damage and destroying bullets.
+Maximum 4 scythes, but damage continues to increase
+- +1 Scythe
+- +100% Scythe damage
 
-Every copy of this card after the 4th doesn't give a new scythe, instead only increasing damage.
-This card will not work in sandbox.
+Base scythe damage is 65
+This card will not work in sandbox without using Sandbox Improvements.
 This card will not appear if RSClasses is installed, being replaced by the astronomer class.

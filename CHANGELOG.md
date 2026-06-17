@@ -1,3 +1,7 @@
+#### 1.7.4
+- Reduced base damage of Twin Scythe (95 -> 65)
+- Fixed an issue where Twin Scythe's damage wouldn't scale
+
 #### 1.7.1
 - Added the edge bounce mono to Rebound and Reflection Accelerant
 

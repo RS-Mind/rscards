@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8477175182603757646}
   - component: {fileID: 8618527158707336867}
   - component: {fileID: 7455535844994788897}
-  - component: {fileID: 4460958279330382683}
   m_Layer: 10
   m_Name: Art_Stalk
   m_TagString: Untagged
@@ -74,20 +73,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &4460958279330382683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 417264315875190542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 2
-  speed: 5
 --- !u!1 &1195050744924950014
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +244,6 @@ GameObject:
   - component: {fileID: 1356982564668713193}
   - component: {fileID: 35280956203163643}
   - component: {fileID: 608337046836634581}
-  - component: {fileID: 5062409236098251220}
   m_Layer: 10
   m_Name: Art_Leaf
   m_TagString: Untagged
@@ -321,20 +305,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &5062409236098251220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2443909796371028792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 2
-  speed: 5
 --- !u!1 &2653847632661956227
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +317,6 @@ GameObject:
   - component: {fileID: 6036201082274039746}
   - component: {fileID: 3663406018562384770}
   - component: {fileID: 3487849034499452462}
-  - component: {fileID: 2384672372536050993}
   m_Layer: 10
   m_Name: Regeneration
   m_TagString: Untagged
@@ -423,20 +392,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
---- !u!114 &2384672372536050993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2653847632661956227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 985132991, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 2
-  speed: 10
 --- !u!1 &4716383220186279866
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,7 +442,6 @@ GameObject:
   - component: {fileID: 2701651136722325333}
   - component: {fileID: 7611966973670560057}
   - component: {fileID: 2846946980219365235}
-  - component: {fileID: 3068686041743576960}
   m_Layer: 10
   m_Name: Art_Face
   m_TagString: Untagged
@@ -551,20 +505,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &3068686041743576960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5023597095332244873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 10
 --- !u!1 &5515543430339400960
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +516,6 @@ GameObject:
   - component: {fileID: 8575447901276297062}
   - component: {fileID: 7837366004567852246}
   - component: {fileID: 251011134193297445}
-  - component: {fileID: 262565318272085650}
   m_Layer: 10
   m_Name: Art_Eyes
   m_TagString: Untagged
@@ -638,20 +577,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &262565318272085650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5515543430339400960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 10
 --- !u!1 &5799831452637821584
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,7 +588,6 @@ GameObject:
   - component: {fileID: 1590518156316987128}
   - component: {fileID: 3264790270006225840}
   - component: {fileID: 8570436721587305570}
-  - component: {fileID: 1428297838703296112}
   - component: {fileID: 7614642554965773300}
   m_Layer: 0
   m_Name: Body1-sharedassets0.assets-679
@@ -727,20 +651,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &1428297838703296112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5799831452637821584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 985132991, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 2
-  speed: 10
 --- !u!114 &7614642554965773300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,7 +675,6 @@ GameObject:
   - component: {fileID: 4865903927766674474}
   - component: {fileID: 1412840958902825208}
   - component: {fileID: 3293594017236475758}
-  - component: {fileID: 4589734577401476601}
   m_Layer: 10
   m_Name: Crosses
   m_TagString: Untagged
@@ -827,20 +736,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &4589734577401476601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6935755632152244246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 985132991, guid: 94787b4cfaa238a4abf0d54c4c27c065, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 20
-  speed: 10
 --- !u!1 &7398895899058149834
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +747,6 @@ GameObject:
   - component: {fileID: 2698979778757808679}
   - component: {fileID: 1094202615122629021}
   - component: {fileID: 3087839658228517337}
-  - component: {fileID: 6076343379003002357}
   m_Layer: 10
   m_Name: Art_Cheeks
   m_TagString: Untagged
@@ -914,20 +808,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &6076343379003002357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7398895899058149834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 10
 --- !u!1 &7854035017852901011
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,7 +819,6 @@ GameObject:
   - component: {fileID: 2132349926535050491}
   - component: {fileID: 8502951652752355431}
   - component: {fileID: 7255123119080555531}
-  - component: {fileID: 7501978268048537808}
   m_Layer: 10
   m_Name: Art_Face (1)
   m_TagString: Untagged
@@ -1002,20 +881,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &7501978268048537808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7854035017852901011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 10
 --- !u!1 &8213501326202529155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +892,6 @@ GameObject:
   - component: {fileID: 8448764276884137023}
   - component: {fileID: 4207352910979421084}
   - component: {fileID: 2505551678636132353}
-  - component: {fileID: 3247436959079644728}
   m_Layer: 10
   m_Name: Art_Eyes
   m_TagString: Untagged
@@ -1089,17 +953,3 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &3247436959079644728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8213501326202529155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c44d90ea76b9d64d8e3a17ac88dec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amount: 5
-  speed: 10
