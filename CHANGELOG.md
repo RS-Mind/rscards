@@ -1,4 +1,10 @@
 #### 1.7.4
+- Open Chamber now grants +25% ATKSPD
+- Reflection Accelerant now provides +50% damage
+- Reverted Twin Scythe's base damage to 95
+- Fixed an issue where one of Split's positive stats was displayed as negative
+
+#### 1.7.3
 - Reduced base damage of Twin Scythe (95 -> 65)
 - Fixed an issue where Twin Scythe's damage wouldn't scale
 

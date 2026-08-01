@@ -39,6 +39,7 @@ Shooting redirects your bullets towards the cursor
 ### Open Chamber
 [Common]
 - -0.5s Reload time
+- +25% ATKSPD
 - -15% Bullet Speed
 
 ### Rebound
@@ -54,6 +55,7 @@ Shooting redirects your bullets towards the cursor
 ### Reflection Accelerant
 [Rare]
 Bullets gain 35% speed when they bounce
+- +50% Damage
 - +25% Bullet speed
 - +2 Bounces
 
@@ -90,6 +92,6 @@ Maximum 4 scythes, but damage continues to increase
 - +1 Scythe
 - +100% Scythe damage
 
-Base scythe damage is 65
+Base scythe damage is 95
 This card will not work in sandbox without using Sandbox Improvements.
-This card will not appear if RSClasses is installed, being replaced by the astronomer class.
+This card will not appear if RSClasses is installed, being replaced by the Astronomer class.

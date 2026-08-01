@@ -57,7 +57,7 @@ MonoBehaviour:
     amount: +3
     simepleAmount: 0
     stat: Ammo
-  - positive: 0
+  - positive: 1
     amount: -0.5s
     simepleAmount: 0
     stat: Reload time

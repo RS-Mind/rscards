@@ -57,6 +57,10 @@ MonoBehaviour:
     amount: -0.5s
     simepleAmount: 0
     stat: Reload time
+  - positive: 1
+    amount: +25%
+    simepleAmount: 0
+    stat: ATKSPD
   - positive: 0
     amount: -15%
     simepleAmount: 0
@@ -149,7 +153,7 @@ MonoBehaviour:
   reloadTimeAdd: -0.5
   recoilMuiltiplier: 1
   knockback: 1
-  attackSpeed: 1
+  attackSpeed: 0.75
   projectileSpeed: 0.85
   projectielSimulatonSpeed: 1
   gravity: 1

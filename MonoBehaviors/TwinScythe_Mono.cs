@@ -13,7 +13,7 @@ namespace RSCards.MonoBehaviors
     {
         public bool ableToHit = true;
         public bool active = true;
-        public float damage = 65;
+        public float damage = 95;
         private Player player;
         private Dictionary<int, float> recent = new Dictionary<int, float>();
         GameObject scythe;
@@ -149,7 +149,7 @@ namespace RSCards.MonoBehaviors
             int scytheCount = 0;
             foreach(CardInfo card in player.data.currentCards)
                 if (card == CardHolder.cards["Twin Scythe"]) scytheCount++;
-            float damage = 65f * (float)Math.Pow(2, scytheCount - 1);
+            float damage = 95f * (float)Math.Pow(2, scytheCount - 1);
             scytheCount = Math.Min(scytheCount, 4);
             while (scythes.Count() < scytheCount) // Create scythes as needed
             {
